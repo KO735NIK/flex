@@ -1,0 +1,74 @@
+.flex {
+    height: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    border: 2px solid black;
+    justify-content: center;
+    justify-content: start;
+    align-items: center;
+    align-items: start;
+    align-items: end;
+    align-items: stretch;
+    flex-wrap: wrap-reverse;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow: auto;
+}
+
+.flex div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    
+}
+
+.red {
+    background-color: rgb(255, 0, 0);
+}
+
+.green {
+    background-color: rgb(2, 139, 13);
+    order: -1;
+    align-self: flex-start;
+}
+
+.blue {
+    background-color: rgb(8, 102, 254);
+}
+
+/* .flex {
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    align-items: center;
+} */
+
+/* .flex div {
+ 
+padding: 10px;
+margin: 5px;
+flex-basis: 100px;
+flex-shrink: 1;
+}
+
+.yellow {
+    background-color: yellow;
+    flex: 1 1 auto;
+    /* flex-grow: 3;
+    flex-shrink: 3; */
+/* } */
+
+/* .pink { */
+    /* background-color: pink; */
+    /* flex: 2 2 auto; */
+    /* /* flex-grow: 1; */
+    /* flex-shrink: 2; */ 
+
+/* .gray { */
+    /* background-color: gray; */
+    /* flex: 3 3 auto; */
+/*  */
+/* } */ 
